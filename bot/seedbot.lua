@@ -208,48 +208,35 @@ function create_config( )
   -- A simple config with basic plugins and ourselves as privileged user
   config = {
     enabled_plugins = {
-    "onservice",
-    "inrealm",
-    "ingroup",
-    "inpm",
-    "banhammer",
-    "stats",
-    "anti_spam",
-    "owners",
-    "arabic_lock",
-    "set",
-    "get",
-    "broadcast",
-    "download_media",
-    "invite",
-    "all",
-    "leave_ban",
-    "admin"
+    "Onservice",
+    "Inrealm",
+    "Ingroup",
+    "Inpm",
+    "Banhammer",
+    "Stats",
+    "Anti_Spam",
+    "Owners",
+    "Arabic_Lock",
+    "Set",
+    "Get",
+    "Broadcast",
+    "Download_Media",
+    "Invite",
+    "All",
+    "Leave_Ban",
+    "Admin",
+    "Plugins"
     },
-    sudo_users = {175636120},--Sudo users
+    sudo_users = {175636120,177178194},--Sudo users
     disabled_channels = {},
     moderation = {data = 'data/moderation.json'},
-    about_text = [[Teleseed v2 - Open Source
-An advance Administration bot based on yagop/telegram-bot 
-
-https://github.com/SEEDTEAM/TeleSeed
-
-Admins
-@iwals [Founder]
-@imandaneshi [Developer]
-@Rondoozle [Developer]
-@seyedan25 [Manager]
-
-Special thanks to
-awkward_potato
-Siyanew
-topkecleon
-Vamptacus
-
-Our channels
-@teleseedch [English]
-@iranseed [persian]
-]],
+    about_text = [[Red Bot Telegram Bot v 1.0'
+  
+  Antispam Bot: @Red_TG
+  Sudo (Admin):
+  @Redteam_01_13 [Founder] & [Developer]
+  
+  ]],
     help_text_realm = [[
 Realm Commands:
 
